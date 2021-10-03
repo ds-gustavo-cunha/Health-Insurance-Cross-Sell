@@ -2,51 +2,51 @@
 
 ## What is the company?
 
-    Insurance All
+Insurance All
 
 ## What is its business model?
 
-    Insurance All is an insurance company that sells health insurance for its clients. The insurance business model works this way. 
+Insurance All is an insurance company that sells health insurance for its clients. The insurance business model works this way. 
 
-    The insurance company requires a payment (called "premium") from the customer to guarantee compensations in case of illnesses, health treatments and any other conditions specified on the contract.
+The insurance company requires a payment (called "premium") from the customer to guarantee compensations in case of illnesses, health treatments and any other conditions specified on the contract.
 
-    So, let's say the premium costs 5,000 and the guarantee is up to 100,000. In this case, the customer has an assurance that, for example, if he needs a health treatment of 20,000, the insurance company will pay for it (as this value is less than 100,000 guarantee).
+So, let's say the premium costs 5,000 and the guarantee is up to 100,000. In this case, the customer has an assurance that, for example, if he needs a health treatment of 20,000, the insurance company will pay for it (as this value is less than 100,000 guarantee).
 
-    Note that the insurance company has not only one customer but rather hundreds, or even thousands, of them. And, the company also knows, by statistical means, that only a few of them will require a guarantee higher than the premium. Therefore, the company attests that, on average, it will make money, even though it may lose money with a few customers.
+Note that the insurance company has not only one customer but rather hundreds, or even thousands, of them. And, the company also knows, by statistical means, that only a few of them will require a guarantee higher than the premium. Therefore, the company attests that, on average, it will make money, even though it may lose money with a few customers.
     
     
 ## What is the business problem the company is facing?
 
-    Insurance All is a health insurance company and its products team is analyzing the possibility of offering a new product, automobile insurance, for its health insurance clients.
+Insurance All is a health insurance company and its products team is analyzing the possibility of offering a new product, automobile insurance, for its health insurance clients.
 
-    Similar to its health insurance, customers of this new insurance plan would have to pay an annual plan to be insured by Insurance All in case of an eventual car accident or damage.
+Similar to its health insurance, customers of this new insurance plan would have to pay an annual plan to be insured by Insurance All in case of an eventual car accident or damage.
 
-    Last year, Insurance All surveyed approximately 380.000 clients on their purchasing interests in this new automobile insurance. All clients in this survey had an 'interested' or 'not interested' response to this new car insurance product and answers were stored in a database alongside other information from its clients.
+Last year, Insurance All surveyed approximately 380.000 clients on their purchasing interests in this new automobile insurance. All clients in this survey had an 'interested' or 'not interested' response to this new car insurance product and answers were stored in a database alongside other information from its clients.
 
-    The product team chose 127.000 new clients that didn't answer the last survey to the new automobile insurance product offering. The products team will make these offers by phone call, but they can make only 20.000 phone calls in the campaign.    
+The product team chose 127.000 new clients that didn't answer the last survey to the new automobile insurance product offering. The products team will make these offers by phone call, but they can make only 20.000 phone calls in the campaign.    
 
 
 ## What is the business solution that this project has to deliver?
 
-    In this business context, you, as a data science consultant, has to develop a model that predicts if a client would be (or would not be) interested in the automobile insurance product.
+In this business context, you, as a data science consultant, has to develop a model that predicts if a client would be (or would not be) interested in the automobile insurance product.
     
-    With this model, the products team expects to prioritize clients that would be interested in the new product and so optimize sales campaigns by making phone calls only for the interested clients.
+With this model, the products team expects to prioritize clients that would be interested in the new product and so optimize sales campaigns by making phone calls only for the interested clients.
     
-    As a final consultant product, you have to make a report with the following analyses:
+As a final consultant product, you have to make a report with the following analyses:
     
-        1. Top insights about the most relevant features of automobile insurance interested clients 
+1. Top insights about the most relevant features of automobile insurance interested clients 
     
-        2. Making 20.000 phone calls, what percentage of interested clients the sales team will get in contact with?
+2. Making 20.000 phone calls, what percentage of interested clients the sales team will get in contact with?
     
-        3. If the sales team expands its capacity to make 40.000 phone calls, what is the percentage of interested clients the sales team will get in contact with?
+3. If the sales team expands its capacity to make 40.000 phone calls, what is the percentage of interested clients the sales team will get in contact with?
     
-        4. How many phone calls does the sales team has to make to contact 80% of automobile insurance interested clients?
+4. How many phone calls does the sales team has to make to contact 80% of automobile insurance interested clients?
 
 REFERENCES:
     
-  https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction/metadata
+https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction/metadata
 
-  https://sejaumdatascientist.com/como-usar-data-science-para-fazer-a-empresa-vender-mais/
+https://sejaumdatascientist.com/como-usar-data-science-para-fazer-a-empresa-vender-mais/
 
 # - BUSINESS ASSUMPTIONS
 
@@ -69,37 +69,37 @@ https://www.businessinsider.com/personal-finance/average-cost-of-car-insurance
 ![crisp-ds](reports/figures/crisp-ds.png)
 
 ## Step 01. Data Extraction:
-    Using SQL, extract data from a PostgreSQL database on Amazon AWS cloud. Then, analyse the entity-relationship diagram and merge different tables.
+Using SQL, extract data from a PostgreSQL database on Amazon AWS cloud. Then, analyse the entity-relationship diagram and merge different tables.
 
 ## Step 02. Data Description:
-    Check column names, number of rows in the table, data types for each column and number o NA values (not-available values). Then use statistics metrics to identify data outside the scope of business.
+Check column names, number of rows in the table, data types for each column and number o NA values (not-available values). Then use statistics metrics to identify data outside the scope of business.
 
 ## Step 03. Feature Engineering:
-    Create a hypothesis list to check on the fifth step (EDA). Then apply data transformations on the required columns.
+Create a hypothesis list to check on the fifth step (EDA). Then apply data transformations on the required columns.
 
 ## Step 04. Data Filtering:
-    Filter rows and select columns that do not contain information for modelling or do not match the scope of the business.
+Filter rows and select columns that do not contain information for modelling or do not match the scope of the business.
 
 ## Step 05. Exploratory Data Analysis:
-    Analyse each variable alone and then the relationship among variables. Then, explore the data further to validate the hypothesis list and raise insights.
+Analyse each variable alone and then the relationship among variables. Then, explore the data further to validate the hypothesis list and raise insights.
 
 ## Step 06. Data Preparation:
-    Split data into train and validation and test. Then, prepare data so that the Machine Learning models can more easily learn and perform more accurately.
+Split data into train and validation and test. Then, prepare data so that the Machine Learning models can more easily learn and perform more accurately.
 
 ## Step 07. Feature Selection:
-    Select the most signiﬁcant attributes for training the model.
+Select the most signiﬁcant attributes for training the model.
 
 ## Step 08. Machine Learning Modelling:
-    Test different Machine Learning models and select the one with the best performance in ranking customers according to their interest.
+Test different Machine Learning models and select the one with the best performance in ranking customers according to their interest.
 
 ## Step 09. Hyperparameter Fine Tuning:
-    Choose the best values for each parameter of the selected ML model.
+Choose the best values for each parameter of the selected ML model.
 
 ## Step 10. Performance Evaluation and Interpretation:
-    Check the learning performance and the generalization performance of the ML model (overfitting vs underfitting). Then convert the ML performance into business results.
+Check the learning performance and the generalization performance of the ML model (overfitting vs underfitting). Then convert the ML performance into business results.
 
 ## Step 11. Deployment:
-    Create an API (Application Programming Interface) to make predictions available on internet requests. Then, for the final user, create a google sheet that gets predictions directly from the API by just clicking a button.
+Create an API (Application Programming Interface) to make predictions available on internet requests. Then, for the final user, create a google sheet that gets predictions directly from the API by just clicking a button.
 
 # - TOP 3 INSIGHTS
 
