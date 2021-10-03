@@ -154,6 +154,7 @@ Create an API (Application Programming Interface) to make predictions available 
 A Google Sheet was created so that the sales team can easily check the likelihood of a customer being interested in automobile insurance. With this solution, the sales team can also easily sort customers according to their interests.
 
 You can check how to make predictions via this spreadsheet by watching the following video:
+
 https://youtu.be/l7lt7gji7oY
 
 # - CONCLUSIONS
