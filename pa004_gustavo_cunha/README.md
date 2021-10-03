@@ -66,7 +66,7 @@ https://www.businessinsider.com/personal-finance/average-cost-of-car-insurance
 
 # - SOLUTION STRATEGY
 
-![crisp-ds](pa004_gustavo_cunha/reports/figures/crisp-ds.png)
+![crisp-ds](reports/figures/crisp-ds.png)
 
 ## Step 01. Data Extraction:
     Using SQL, extract data from a PostgreSQL database on Amazon AWS cloud. Then, analyse the entity-relationship diagram and merge different tables.
@@ -107,7 +107,7 @@ https://www.businessinsider.com/personal-finance/average-cost-of-car-insurance
 
 > H1 IS TRUE. Different regions have a large variation in terms of the number of interested customers.
     
-![h4_hypothesis](pa004_gustavo_cunha/reports/figures/h4_hypothesis.png)
+![h4_hypothesis](reports/figures/h4_hypothesis.png)
     
 **Suggestion**: investigate further as there may be better regions to focus on sales.
 
@@ -115,7 +115,7 @@ https://www.businessinsider.com/personal-finance/average-cost-of-car-insurance
 
 > H7 IS TRUE. The number of interested customers may vary largely among sales channels.
 
-![h7_hypothesis](pa004_gustavo_cunha/reports/figures/h7_hypothesis.png) 
+![h7_hypothesis](reports/figures/h7_hypothesis.png) 
 
 **Suggestion:** investigate further as there may be better channels to focus on sales.
 
@@ -123,29 +123,29 @@ https://www.businessinsider.com/personal-finance/average-cost-of-car-insurance
 
 > H3 IS FALSE. The number of interested customers doesn't always decrease with increasing annual health insurance premium of past contracts. There is a region of annual premium about 35000 where, the higher the annual premium, the higher the number of interested customers.
 
-![h9_hypothesis](pa004_gustavo_cunha/reports/figures/h9_hypothesis.png) 
+![h9_hypothesis](reports/figures/h9_hypothesis.png) 
 
 # - BUSINESS RESULTS
 
 ## Making 20.000 phone calls, what percentage of interested clients the sales team will get in contact with?
 
-![20k_questions](pa004_gustavo_cunha/reports/figures/second_business_question.png)
+![20k_questions](reports/figures/second_business_question.png)
 
 ## If the sales team expands its capacity to make 40.000 phone calls, what is the percentage of interested clients the sales team will get in contact with?
 
-![80k_question](pa004_gustavo_cunha/reports/figures/third_business_question.png)
+![80k_question](reports/figures/third_business_question.png)
 
 ## How many phone calls do the sales team has to make to contact 80% of automobile insurance interested clients?
 
-![80%_question](pa004_gustavo_cunha/reports/figures/fourth_business_question.png)
+![80%_question](reports/figures/fourth_business_question.png)
 
 ## Compiled business results
 
-![compiled_questions](pa004_gustavo_cunha/reports/figures/compiled_business_question.png)
+![compiled_questions](reports/figures/compiled_business_question.png)
 
 # - RANDOM MODEL vs ML MODEL
 
-![random_vs_ml](pa004_gustavo_cunha/reports/figures/lift_business_question.png)
+![random_vs_ml](reports/figures/lift_business_question.png)
 
 # - DEPLOYMENT
 
