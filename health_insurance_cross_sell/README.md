@@ -131,7 +131,7 @@ Create an API (Application Programming Interface) to make predictions available 
 
 ## Making 20.000 phone calls, what percentage of interested clients the sales team will get in contact with?
 
-![20k_questions](imagess/second_business_question.png)
+![20k_questions](images/second_business_question.png)
 
 ## If the sales team expands its capacity to make 40.000 phone calls, what is the percentage of interested clients the sales team will get in contact with?
 
